@@ -1,3 +1,5 @@
+<!-- Auftrag 3.1 -->
+
 <!-- Aufgaben a und b -->
 
 <?php
@@ -13,6 +15,11 @@ Mein Name ist $name und ich komme von $wohnort. <br/>
 Meine Haare sind $haarfarbe, ich bin $alter Jahre alt.";
 
 ?>
+
+<br>
+<br>
+<br>
+<br>
 
 
 <!-- Aufgabe c -->
