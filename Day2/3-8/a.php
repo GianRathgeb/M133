@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // collect value of input field
     $field1 = "Inhalt des ersten Feldes ist: " . $_POST['field1'];
     $field2 = "Inhalt des zweiten Feldes ist: " .  $_POST['field2'];
 } else {
@@ -14,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3-8</title>
+    <title>3-8-c</title>
 </head>
 
 <body>
