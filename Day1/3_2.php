@@ -5,6 +5,7 @@
 <?php
 
 $title = "PHP Farben Test";
+$color = "#999999";
 // Aufgabe H unverständlich ausgedrückt, mögliche Lösung: $color = "rbg("
 mt_srand((float) microtime() * 1000000);
 $random = mt_rand(0, 255);
@@ -18,10 +19,10 @@ $color = "rgb(" . dechex($random) . ", " . dechex($random) . ", " . dechex($rand
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$title ?></title>
+    <title><?= $title ?></title>
     <style>
         body {
-            background-color: <?=$color ?>
+            background-color: <?= $color ?>
         }
     </style>
 </head>
