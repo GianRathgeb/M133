@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <form method="post" action="3-8.php">
+    <form method="post" action="a.php">
         <fieldset>
             <label for="fiel1">Feld 1:</label>
             <input type="text" name="field1">

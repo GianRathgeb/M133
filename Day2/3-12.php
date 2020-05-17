@@ -9,8 +9,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } while (sizeof($numbers) < 6 );
     $i = 1;
+    echo "Lottozahlen:<br>";
     foreach ($numbers as $number) {
-        echo "Nummer " . $i . ": " . $number . "<br>";
+        echo "Zahl " . $i . ": " . $number . "<br>";
         $i = $i + 1;
     }
     unset($number);

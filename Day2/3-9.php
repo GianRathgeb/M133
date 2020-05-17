@@ -6,7 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Es wurde keine Hintergrundfarbe ausgewählt.";
         $color = 'white';
     }
+} else {
+    $color = 'white';
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <form action="a.php" method="POST">
+    <form action="3-9.php" method="POST">
         <fieldset>
             <label for="color_red">Rot:</label>
             <input type="radio" id="color_red" value="red" name="color">
