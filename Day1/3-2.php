@@ -28,7 +28,7 @@ $color = "rgb(" . dechex($random) . ", " . dechex($random) . ", " . dechex($rand
 </head>
 
 <body>
-
+        <p>Neu laden zum Ändern des Hintergrundes.</p>
 </body>
 
 </html>
