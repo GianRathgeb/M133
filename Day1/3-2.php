@@ -9,7 +9,7 @@ $color = "#999999";
 // Aufgabe H unverständlich ausgedrückt, mögliche Lösung: $color = "rbg("
 mt_srand((float) microtime() * 1000000);
 $random = mt_rand(0, 255);
-$color = "rgb(" . dechex($random) . ", " . dechex($random) . ", " . dechex($random) . ")";
+$color = "rgb(" . $random . ", " . $random . ", " . $random . ")";
 
 ?>
 
@@ -28,7 +28,7 @@ $color = "rgb(" . dechex($random) . ", " . dechex($random) . ", " . dechex($rand
 </head>
 
 <body>
-        <p>Neu laden zum Ändern des Hintergrundes.</p>
+    <p>Neu laden zum Ändern des Hintergrundes.</p>
 </body>
 
 </html>
