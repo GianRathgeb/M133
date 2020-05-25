@@ -1,4 +1,5 @@
 <?php
+# Problem line 15 without trim, ca 40 min. with problem
 $filename = "hashes.txt";
 $file = fopen($filename, "r");
 $lines = [];
@@ -11,9 +12,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     foreach ($lines as $login) {
         $login = explode(";", $login);
         if ($login[0] == $username) {
-            if (!password_verify($password, $login[1])) {
+            if (password_verify($password, trim($login[1]))) {
                 echo "Login erfolgreich";
                 break;
+            } else {
+                echo "Username and/or Password incorrect.";
             }
         }
     }
