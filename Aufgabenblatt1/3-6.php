@@ -1,11 +1,8 @@
 <?php
+$namen = array("Peter", "Paul", "Pascal", "Fred", "Ronald");
 
-for ($i = 1; $i <= 4; $i++) {
-    echo "zeile $i<br>";
-}
-$namen = array("Peter", "Paul", "Pascal", "Fred");
+#  $anzahl = count($namen);
 
-echo "<br>";
 
 foreach ($namen as $i) {
     echo "$i <br>";
@@ -20,7 +17,7 @@ foreach ($namen as $i) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3-5</title>
+    <title>3-6</title>
 </head>
 
 <body>

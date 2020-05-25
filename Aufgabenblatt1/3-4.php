@@ -2,8 +2,8 @@
 
 function namensausgabe($name, $alter)
     {
-        $satz = "Mein Name ist $name, ich bin $alter Jahre alt";
-        return $satz;
+        $string = "Mein Name ist $name, ich bin $alter Jahre alt";
+        return $string;
     }
 ?>
 
