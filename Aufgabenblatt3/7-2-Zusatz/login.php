@@ -1,5 +1,4 @@
 <?php
-# Problem line 15 without trim, ca 40 min. with problem
 $filename = "hashes.txt";
 $file = fopen($filename, "r");
 $lines = [];
