@@ -17,10 +17,8 @@ while ($line = fgets($file)) {
 
 print_array($lines);
 echo "<br>";
-sort($lines);
+rsort($lines);
 print_array($lines);
-
-
 
 ?>
 
