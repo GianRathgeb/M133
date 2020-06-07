@@ -1,4 +1,5 @@
 <?php
+# Password = Username lowercase
 $filename = "hashes.txt";
 $file = fopen($filename, "r");
 $lines = [];
