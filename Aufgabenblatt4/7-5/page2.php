@@ -2,7 +2,7 @@
 
     session_start(); # Important!
 
-    if (!isset($_SESSION['Username']) or !isset($_SESSION['CreationDate'])) {
+    if (!isset($_SESSION['Username'])) {
         die("Please Login and come back");
     }
 
@@ -11,7 +11,6 @@
 
     # Output text
     echo $Username.', your still logged in<br>
-    Your account was created at '.date('Y-m-d H:i:s', $_SESSION['CreationDate']).'
     <a href="logout.php">Logout</a>';
 
 ?>

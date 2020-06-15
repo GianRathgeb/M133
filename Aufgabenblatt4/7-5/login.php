@@ -9,7 +9,6 @@
 
     # Start Session
     $_SESSION['Username'] = $Username;
-    $_SESSION['CreationDate'] = $_SERVER['REQUEST_TIME'];
 
     # Text Output
     echo 'Welcome '.$Username.' <br>
