@@ -9,6 +9,8 @@ if (isset($_COOKIE['Username']) and isset($_COOKIE['ViewTime'])) {
 
     setcookie('Username', '', -1);
     setcookie('ViewTime', '', -1);
+} else {
+    echo "Geben Sie bitte einen Benutzername und ein Passwort ein!";
 }
 
 ?>
