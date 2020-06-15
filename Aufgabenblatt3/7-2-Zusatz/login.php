@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
     foreach ($lines as $login) {
         $login = explode(";", $login);
-        if ($login[0] == $username) {
+        if ($login[0] == $username) { 
             if (password_verify($password, trim($login[1]))) {
                 echo "Login erfolgreich";
                 break;
