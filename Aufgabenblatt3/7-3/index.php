@@ -8,6 +8,10 @@ if ($_SERVER["REMOTE_ADDR"] == $pi_addr) {
     echo "Sie waren heute noch nicht hier";
 }
 
+foreach($_SERVER as $key => $value){
+    echo "<br><br>".$key."<br>".$value."\n";
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="de">
